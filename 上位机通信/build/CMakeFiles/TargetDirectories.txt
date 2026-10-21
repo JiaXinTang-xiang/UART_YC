@@ -1,0 +1,3 @@
+/home/jiaxintang/桌面/work/project/demo2/UART_YC/上位机通信/build/CMakeFiles/test_loopback.dir
+/home/jiaxintang/桌面/work/project/demo2/UART_YC/上位机通信/build/CMakeFiles/edit_cache.dir
+/home/jiaxintang/桌面/work/project/demo2/UART_YC/上位机通信/build/CMakeFiles/rebuild_cache.dir
