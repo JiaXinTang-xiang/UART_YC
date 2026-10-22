@@ -31,7 +31,7 @@ int main(void)
     Vision_init();
 	uart0_init(115200);
 	Wireless_init(115200);
-	Communication_init(115200);
+	Host_UART_Init();          /* 上位机串口协议（Communication=UART1，115200） */
     timerg6_pwm_rgb_init();
 		
     delay_ms(100);
@@ -51,6 +51,7 @@ int main(void)
     while (1)
 	{
 		IMU_getYawPitchRoll(ypr);
+		Host_UART_Poll();   /* 处理上位机下发的帧（回环回发 / 解析到 vision_data） */
 	}
 }
 

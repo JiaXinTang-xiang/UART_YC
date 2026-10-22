@@ -715,9 +715,24 @@
               <FilePath>..\application\TypecUART_task.c</FilePath>
             </File>
             <File>
-              <FileName>Communication_task.c</FileName>
+              <FileName>uart_protocol.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\application\Communication_task.c</FilePath>
+              <FilePath>..\application\uart_protocol.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart_protocol.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\application\uart_protocol.h</FilePath>
+            </File>
+            <File>
+              <FileName>host_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\application\host_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>host_uart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\application\host_uart.h</FilePath>
             </File>
           </Files>
         </Group>

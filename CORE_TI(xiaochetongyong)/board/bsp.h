@@ -46,7 +46,7 @@ static inline void delay_us(uint32_t us)
 #include "Vision_task.h"
 #include "Wireless_task.h"
 #include "TypecUART_task.h"
-#include "communication_task.h"
+#include "host_uart.h"
 
 /* Algorithm（算法层） */
 #include "pid.h"
